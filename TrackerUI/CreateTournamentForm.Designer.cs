@@ -247,6 +247,7 @@ namespace TrackerUI
             this.createTournamentButtton.TabIndex = 24;
             this.createTournamentButtton.Text = "Create Tournament";
             this.createTournamentButtton.UseVisualStyleBackColor = true;
+            this.createTournamentButtton.Click += new System.EventHandler(this.createTournamentButtton_Click);
             // 
             // CreateTournamentForm
             // 
