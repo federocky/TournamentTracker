@@ -9,7 +9,7 @@ namespace TrackerLibrary.Model
         /// <summary>
         /// Represents team unique Id
         /// </summary>
-        public TeamModel Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Represents one team in the matchup
