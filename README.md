@@ -2,7 +2,6 @@
 
 ![Project Image](./TournamentTracker.png)
 ![Project Image](./TournamentTracker2.png)
-![Project Image](./TournamentTracker3.png)
 
 
 ---
