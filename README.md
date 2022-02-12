@@ -1,8 +1,8 @@
 # Tournament Tracker
 
-![Project Image](./tournamentTracker.png)
-![Project Image](./tournamentTracker2.png)
-![Project Image](./tournamentTracker3.png)
+![Project Image](./TournamentTracker.png)
+![Project Image](./TournamentTracker2.png)
+![Project Image](./TournamentTracker3.png)
 
 
 ---
