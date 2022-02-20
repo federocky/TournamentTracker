@@ -116,5 +116,10 @@ namespace TrackerLibrary.DataAccess
                 .LoadFile()
                 .ConverToTournamentModels(TeamFile, PeopleFile, PrizesFile);
         }
+
+        public void UpdateMatchup(MatchupModel model)
+        {
+            model.UpdateMatchupToFile();
+        }
     }
 }
