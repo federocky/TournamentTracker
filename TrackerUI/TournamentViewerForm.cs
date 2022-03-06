@@ -24,11 +24,18 @@ namespace TrackerUI
 
             tournament = tournamentModel;
 
+            tournament.OnTournamentComplete += Tournament_OnTournamentComplete;
+
             WireUpLists();
 
             LoadFormData();
 
             LoadRounds();
+        }
+
+        private void Tournament_OnTournamentComplete(object sender, DateTime e)
+        {
+            this.Close();
         }
 
         private void LoadFormData()
@@ -166,7 +173,7 @@ namespace TrackerUI
             double teamTwoScore = 0;
 
             bool scoreOneValid = double.TryParse(teamOneScoreValue.Text, out teamOneScore);
-            bool scoreTwoValid = double.TryParse(teamOneScoreValue.Text, out teamTwoScore);
+            bool scoreTwoValid = double.TryParse(teamTwoScoreValue.Text, out teamTwoScore);
 
             if (!scoreOneValid)
             {
