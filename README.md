@@ -33,8 +33,6 @@ This application was made following a great online walkthroug course.
 
 ---
 
-## How To Use
-
 #### Installation
 
 - Clone the repo.
